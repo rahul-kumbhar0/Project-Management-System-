@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+
+# Directory for file uploads
+uploads/
+
+# Environment variables
+.env
+
+
+# Build artifacts
+dist/
+
+# IDE-specific files
+.vscode/
+.idea/
