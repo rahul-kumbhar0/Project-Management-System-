@@ -15,7 +15,7 @@ uploads/
 
 # Environment variables
 .env
-
+ 
 
 # Build artifacts
 dist/

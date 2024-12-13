@@ -20,3 +20,4 @@ router.get('/', authenticateJWT, authorizeRoles(['admin', 'project manager', 'de
 router.delete('/:labelId', authenticateJWT,authorizeRoles(['admin', 'project manager', 'developer', 'scrum_master' ]), deleteLabel);
 
 module.exports = router;
+
