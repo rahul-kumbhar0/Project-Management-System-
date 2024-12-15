@@ -4,8 +4,7 @@ const {register, login, getProfile} = require('../controllers/authController');
 const {authenticateJWT} = require('../middleware/authMiddleware');
 
 router.post('/register', register);
-router.post('/login', login);
+router.post('/login', login); 
 router.get('/profile', authenticateJWT, getProfile);
-
 
 module.exports = router;
