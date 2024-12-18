@@ -8,7 +8,7 @@ const socketSetup = (server) => {
             methods: ["GET", "POST"],
         },
     });
-
+  
     io.on('connection', (socket) => {
         console.log('New socket connection:', socket.id);
 
